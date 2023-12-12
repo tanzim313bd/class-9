@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+nav{
+    background-color: #02918b;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.heading{
+ text-align: center;
+}
+.heading h2{
+    color: #02918c;
+    font-weight: 800;
+    font-size: 46px;
+}
+.heading p{
+    color: #7e8287;
+    font-size: 16px;
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right; 
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+/* Banner */
+#banner{
+   
+    background-image: url(../images/20\ Times\ David\ Beckham\ Showed\ You\ How\ to\ Dress\ Well\ in\ 2016\ \(1\).jpeg);
+    height: 727px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner .row{
+    height: 727px;
+}
+
+#banner .banner_cnt{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+#banner .banner_cnt h6{
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner .banner_cnt h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#banner .banner_cnt img{
+    margin: 50px 0;
+}
+#banner .banner_cnt a{
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 20px 42px;
+    display: inline-block;
+}
+/* Banner */
+#about{
+    padding: 98px 0;
+    text-align: center;
+}
+#about .container #paragraph{
+    color: #7e8287;
+    font-size: 16px;
+    text-align: center;
+    padding: 36px 20px;
+    
+}
+#about .container #paragraph b{
+    color: #7e8287;
+    font-size: 23px;
+    font-weight: 800;
+}
+#about .about_card{
+    width: 25%;
+    padding: 30px 0;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+#about .about_para{
+    width: 25%;
+    color: #7e8287;
+    font-size: 11px;
+    font-weight: 400;
+}
+#about .about_card i{
+    font-size: 30px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    color:#02918c ;
+}
